@@ -4,6 +4,9 @@ This is Vue and Node(express) Full Stack App
 
 # Server
 
+### Framework
+Express.js
+
 ### Database
 MongoDB // use to store data
 
