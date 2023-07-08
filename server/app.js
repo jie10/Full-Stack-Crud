@@ -2,10 +2,12 @@ require('dotenv').config()
 const express = require('express')
 const connectDB = require('./db/connect')
 const notFound = require('./middleware/not-found')
+const cors = require('cors')
 const app = express()
 
 app.use(express.json({ extended: true }))
-app.use(express.urlencoded({ extended: true }))
+app.use(express.urlencoded({ extended: false }))
+app.use(cors({ origin: '*' }))
 app.use('/api/v1/crud', require('./routes/user'))
 app.use(notFound)
 async function start() {
