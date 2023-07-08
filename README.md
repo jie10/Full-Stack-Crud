@@ -28,6 +28,12 @@ Pinia // handle state, getters, and actions
 cd client
 ```
 
+### install dependencies
+
+```
+npm install or pnpm install
+```
+
 ### run the client
 
 ```
