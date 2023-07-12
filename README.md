@@ -94,3 +94,7 @@ npm install or pnpm install
 ```
 npm run dev or pnpm run dev // this will run the server
 ```
+
+#### test tool
+
+POSTMAN
